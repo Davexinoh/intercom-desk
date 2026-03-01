@@ -54,7 +54,7 @@ desk> priority 2 high                # escalate priority
 desk> close 4                        # resolve ticket
 desk> stats                          # analytics dashboard
 🌐 Web Dashboard Demo
-Open http://localhost:5173
+Open https://intercomdesk.netlify.app/
 Click ✍️ New Complaint → select category → subcategory → submit
 Watch auto-priority fire instantly on security/payment tickets
 Open 📨 Inbox → click any ticket
