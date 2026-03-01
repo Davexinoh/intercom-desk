@@ -1,11 +1,11 @@
 'use strict'
 
 const readline = require('readline')
-const { CATEGORIES } = require('../store/complaints')
-const tickets  = require('../store/tickets')
-const { getSuggestion } = require('../store/suggest')
-const { listMacros, getMacro } = require('../store/macros')
-const { getAnalytics } = require('../store/analytics')
+const { CATEGORIES } = require('../core/complaints')
+const tickets  = require('../core/tickets')
+const { getSuggestion } = require('../core/suggest')
+const { listMacros, getMacro } = require('../core/macros')
+const { getAnalytics } = require('../core/analytics')
 const db       = require('../store/db')
 
 const C = {

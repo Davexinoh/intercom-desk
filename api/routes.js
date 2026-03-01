@@ -2,11 +2,11 @@
 
 const express   = require('express')
 const router    = express.Router()
-const tickets   = require('../store/tickets')
-const { CATEGORIES } = require('../store/complaints')
-const { getSuggestion } = require('../store/suggest')
-const { listMacros, getMacro } = require('../store/macros')
-const { getAnalytics } = require('../store/analytics')
+const tickets   = require('../core/tickets')
+const { CATEGORIES } = require('../core/complaints')
+const { getSuggestion } = require('../core/suggest')
+const { listMacros, getMacro } = require('../core/macros')
+const { getAnalytics } = require('../core/analytics')
 const db        = require('../store/db')
 
 router.get('/health', (_, res) => res.json({ ok: true, service: 'Intercom Desk' }))
