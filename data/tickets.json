@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "status": "open",
+    "status": "closed",
     "priority": "high",
     "category": "security",
     "subcategory": "unauthorised",
     "subject": "Someone logged into my account from a foreign country",
     "createdAt": "2026-03-01T11:26:37.457Z",
-    "updatedAt": "2026-03-01T11:56:37.457Z",
-    "assignedTo": "Alice",
+    "updatedAt": "2026-03-01T13:49:29.684Z",
+    "assignedTo": "Bob",
     "thread": [
       {
         "role": "user",
@@ -24,6 +24,21 @@
         "role": "agent",
         "text": "Hi there, I've escalated this to our security team immediately. Please change your password right now and enable 2FA. A security specialist will contact you within 2 hours.",
         "at": "2026-03-01T11:56:37.457Z"
+      },
+      {
+        "role": "agent",
+        "text": "Hello",
+        "at": "2026-03-01T13:49:17.689Z"
+      },
+      {
+        "role": "system",
+        "text": "Assigned to Bob.",
+        "at": "2026-03-01T13:49:25.182Z"
+      },
+      {
+        "role": "system",
+        "text": "Ticket closed.",
+        "at": "2026-03-01T13:49:29.684Z"
       }
     ]
   },
@@ -35,7 +50,7 @@
     "subcategory": "payment_failed",
     "subject": "Unable to complete payment for Pro plan",
     "createdAt": "2026-03-01T12:26:37.457Z",
-    "updatedAt": "2026-03-01T12:26:37.457Z",
+    "updatedAt": "2026-03-01T13:53:33.180Z",
     "assignedTo": null,
     "thread": [
       {
@@ -47,6 +62,11 @@
         "role": "system",
         "text": "Ticket created. Priority set to HIGH by rules engine.",
         "at": "2026-03-01T12:26:37.457Z"
+      },
+      {
+        "role": "agent",
+        "text": "Sorry to hear your payment didn't go through. Here are some common fixes:\n1. Double-check your card number, expiry date, and CVV\n2. Ensure your billing address matches your bank records\n3. Check with your bank — some block online transactions by default\n4. Try a different payment method or card\n5. Clear your browser cache and retry\nIf the issue persists, please share the last 4 digits of your card and we'll investigate further.",
+        "at": "2026-03-01T13:53:33.180Z"
       }
     ]
   },
@@ -159,6 +179,62 @@
         "role": "system",
         "text": "Ticket closed.",
         "at": "2026-03-01T10:06:37.457Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "status": "open",
+    "priority": "high",
+    "category": "security",
+    "subcategory": "phishing",
+    "subject": "Hejdhemd ",
+    "createdAt": "2026-03-01T13:46:50.972Z",
+    "updatedAt": "2026-03-01T13:46:50.972Z",
+    "assignedTo": null,
+    "thread": [
+      {
+        "role": "user",
+        "text": "Vsjshs x ",
+        "at": "2026-03-01T13:46:50.972Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "status": "closed",
+    "priority": "low",
+    "category": "account",
+    "subcategory": "password_reset",
+    "subject": "Can't ",
+    "createdAt": "2026-03-01T13:47:54.426Z",
+    "updatedAt": "2026-03-01T13:54:33.620Z",
+    "assignedTo": null,
+    "thread": [
+      {
+        "role": "user",
+        "text": "Can't ",
+        "at": "2026-03-01T13:47:54.426Z"
+      },
+      {
+        "role": "agent",
+        "text": "To reset your password, please follow these steps:\n1. Visit the login page and click \"Forgot Password\"\n2. Enter your registered email address\n3. Check your inbox for a reset link (check spam if not received)\n4. Click the link and follow the instructions to set a new password\n5. The link expires after 24 hours — request a new one if needed.\nLet us know if you run into any issues!",
+        "at": "2026-03-01T13:47:54.426Z"
+      },
+      {
+        "role": "system",
+        "text": "Auto-resolved by Intercom Desk rules engine.",
+        "at": "2026-03-01T13:47:54.426Z"
+      },
+      {
+        "role": "agent",
+        "text": "Okay thanks ",
+        "at": "2026-03-01T13:48:10.614Z"
+      },
+      {
+        "role": "system",
+        "text": "Ticket closed.",
+        "at": "2026-03-01T13:54:33.620Z"
       }
     ]
   }
