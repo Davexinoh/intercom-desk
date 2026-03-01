@@ -102,8 +102,8 @@ List macros
 GET
 /api/stats
 Analytics
+## 📸 Proof ![Intercom Desk Dashboard](proof.png)
 
-�
 
 Trac Address
 trac1e822qqhy2x0jsl03y57zaflucewszpdg0k4cv2tu0s3p4sj87z7qg4h5h2
