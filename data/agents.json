@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Alice",
+    "email": "alice@desk.local",
+    "closedCount": 2
+  },
+  {
+    "name": "Bob",
+    "email": "bob@desk.local",
+    "closedCount": 0
+  },
+  {
+    "name": "Carol",
+    "email": "carol@desk.local",
+    "closedCount": 1
+  }
+]

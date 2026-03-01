@@ -8,7 +8,7 @@
     "api":         "node api/server.js",
     "cli":         "node cli/cli.js",
     "web":         "npm --prefix web run dev",
-    "dev":         "concurrently \"npm run api\" \"npm run web\" \"npm run cli\"",
+    "dev":         "concurrently \"npm run api\" \"npm run web\"",
     "seed":        "node seed.js",
     "install:web": "npm --prefix web install"
   },
