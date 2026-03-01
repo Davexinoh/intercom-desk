@@ -1,0 +1,10 @@
+[build]
+  base = "/"
+  command = "npm --prefix web install && npm --prefix web run build"
+  publish = "web/dist"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://intercom-desk.onrender.com/api/:splat"
+  status = 200
+  force = true
